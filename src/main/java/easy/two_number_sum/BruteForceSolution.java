@@ -1,4 +1,4 @@
-package two_number_sum;
+package easy.two_number_sum;
 
 /**
  * Created by amitgade on 22-Mar-2021

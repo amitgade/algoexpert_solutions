@@ -1,11 +1,11 @@
-package two_number_sum;
+package easy.two_number_sum;
 
 import java.util.HashSet;
 
 /**
  * Created by amitgade on 22-Mar-2021
  */
-public class OptimumSolution {
+public class Program {
     public static int[] twoNumberSum(int[] array, int targetSum) {
         HashSet<Integer> hashSet = new HashSet<>();
         for (Integer i : array) {
