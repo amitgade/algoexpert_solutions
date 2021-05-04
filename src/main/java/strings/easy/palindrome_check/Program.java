@@ -1,4 +1,4 @@
-package easy.string_palindrome;
+package strings.easy.palindrome_check;
 
 /**
  * Created by amitgade on 04-May-2021

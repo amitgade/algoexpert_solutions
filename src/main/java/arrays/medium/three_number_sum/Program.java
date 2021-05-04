@@ -1,4 +1,4 @@
-package medium.three_number_sum;
+package arrays.medium.three_number_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

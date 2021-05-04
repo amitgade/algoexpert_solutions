@@ -1,4 +1,4 @@
-package medium.smallest_difference;
+package arrays.medium.smallest_difference;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class ProgramTest {
     @Test
-    public void TestCase1() {
+    public void testCase() {
         int[] expected = {28, 26};
         Assert.assertTrue(
                 Arrays.equals(

@@ -1,4 +1,4 @@
-package easy.two_number_sum;
+package arrays.easy.two_number_sum;
 
 import java.util.HashSet;
 

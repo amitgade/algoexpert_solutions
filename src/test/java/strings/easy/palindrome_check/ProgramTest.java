@@ -1,4 +1,4 @@
-package easy.string_palindrome;
+package strings.easy.palindrome_check;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import org.junit.Test;
  */
 public class ProgramTest {
     @Test
-    public void TestCase1() {
+    public void testCase() {
         Assert.assertTrue(Program.isPalindrome("abcdcba"));
         Assert.assertTrue(Program.isPalindrome("abccba"));
         Assert.assertTrue(Program.isPalindrome("a"));

@@ -1,4 +1,4 @@
-package medium.smallest_difference;
+package arrays.medium.smallest_difference;
 
 import java.util.Arrays;
 
