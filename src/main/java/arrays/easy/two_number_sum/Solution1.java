@@ -3,7 +3,8 @@ package arrays.easy.two_number_sum;
 /**
  * Created by amitgade on 22-Mar-2021
  */
-public class BruteForceSolution {
+public class Solution1 {
+    // O(n^2) time | O(1) space
     public static int[] twoNumberSum(int[] array, int targetSum) {
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {

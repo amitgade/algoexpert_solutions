@@ -6,12 +6,14 @@ import org.junit.Test;
 /**
  * Created by amitgade on 22-Mar-2021
  */
-public class ProgramTest {
+public class SolutionTest {
 
     @Test
     public void twoNumberSum() {
-        int[] output = Program.twoNumberSum(new int[] {3, 5, -4, 8, 11, 1, -1, 6}, 10);
-//        int[] output = BruteForceSolution.twoNumberSum(new int[] {3, 5, -4, 8, 11, 1, -1, 6}, 10);
+//        int[] output = Solution1.twoNumberSum(new int[] {3, 5, -4, 8, 11, 1, -1, 6}, 10);
+//        int[] output = Solution2.twoNumberSum(new int[] {3, 5, -4, 8, 11, 1, -1, 6}, 10);
+        int[] output = Solution3.twoNumberSum(new int[] {3, 5, -4, 8, 11, 1, -1, 6}, 10);
+
         Assert.assertTrue(output.length == 2);
         Assert.assertTrue(contains(output, -1));
         Assert.assertTrue(contains(output, 11));

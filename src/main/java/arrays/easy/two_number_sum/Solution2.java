@@ -5,7 +5,8 @@ import java.util.HashSet;
 /**
  * Created by amitgade on 22-Mar-2021
  */
-public class Program {
+public class Solution2 {
+    // O(n) time | O(n) space
     public static int[] twoNumberSum(int[] array, int targetSum) {
         HashSet<Integer> hashSet = new HashSet<>();
         for (Integer i : array) {
