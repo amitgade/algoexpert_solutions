@@ -1,3 +1,3 @@
 # algoexpert_solutions
 
-Solutions of Algoexpert Challenges 123
+Solutions of Algoexpert Challenges
