@@ -9,9 +9,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class Solution1Test {
-    public Solution1.LinkedList addMany(
-            Solution1.LinkedList ll, List<Integer> values
-    ) {
+    public Solution1.LinkedList addMany(Solution1.LinkedList ll, List<Integer> values) {
         Solution1.LinkedList current = ll;
         while (current.next != null) {
             current = current.next;
