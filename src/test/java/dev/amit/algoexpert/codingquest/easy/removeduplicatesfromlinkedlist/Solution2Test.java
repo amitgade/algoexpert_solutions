@@ -6,26 +6,26 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class Solution1Test {
-    public Solution1.LinkedList addMany(
-            Solution1.LinkedList ll, List<Integer> values
+public class Solution2Test {
+    public Solution2.LinkedList addMany(
+            Solution2.LinkedList ll, List<Integer> values
     ) {
-        Solution1.LinkedList current = ll;
+        Solution2.LinkedList current = ll;
         while (current.next != null) {
             current = current.next;
         }
         for (int value : values) {
-            current.next = new Solution1.LinkedList(value);
+            current.next = new Solution2.LinkedList(value);
             current = current.next;
         }
         return ll;
     }
 
-    public List<Integer> getNodesInArray(Solution1.LinkedList ll) {
+    public List<Integer> getNodesInArray(Solution2.LinkedList ll) {
         List<Integer> nodes = new ArrayList<Integer>();
-        Solution1.LinkedList current = ll;
+        Solution2.LinkedList current = ll;
         while (current != null) {
             nodes.add(current.value);
             current = current.next;
@@ -33,14 +33,16 @@ public class Solution1Test {
         return nodes;
     }
 
+
     @Test
-    public void removeDuplicatesFromLinkedListSolution1() {
-        Solution1.LinkedList input = new Solution1.LinkedList(1);
+    public void removeDuplicatesFromLinkedList() {
+        Solution2.LinkedList input = new Solution2.LinkedList(1);
         addMany(
                 input, new ArrayList<Integer>(Arrays.asList(1, 3, 4, 4, 4, 5, 6, 6))
         );
         List<Integer> expectedNodes = new ArrayList<Integer>(Arrays.asList(1, 3, 4, 5, 6));
-        Solution1.LinkedList output = new Solution1().removeDuplicatesFromLinkedList(input);
+        Solution2.LinkedList output = new Solution2().removeDuplicatesFromLinkedList(input);
         assertEquals(getNodesInArray(output), expectedNodes);
     }
+
 }
