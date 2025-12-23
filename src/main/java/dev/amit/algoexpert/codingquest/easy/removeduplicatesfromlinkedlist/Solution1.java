@@ -1,6 +1,6 @@
 package dev.amit.algoexpert.codingquest.easy.removeduplicatesfromlinkedlist;
 
-public class Program {
+public class Solution1 {
     // This is an input class. Do not edit.
     public static class LinkedList {
         public int value;
